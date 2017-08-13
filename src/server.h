@@ -1795,7 +1795,6 @@ void activeExpireCycle(int type);
 void expireSlaveKeys(void);
 void rememberSlaveKeyWithExpire(redisDb *db, robj *key);
 void flushSlaveKeysWithExpireList(void);
-size_t getSlaveKeyWithExpireCount(void);
 
 /* evict.c -- maxmemory handling and LRU eviction. */
 void evictionPoolAlloc(void);

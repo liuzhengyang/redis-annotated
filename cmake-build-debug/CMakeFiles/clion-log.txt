@@ -1,0 +1,9 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/zhengyangliu/Code/opensource/redis
+j
+-- Host is: Darwin-16.6.0.  Build target is: Darwin-16.6.0
+-- Project root directory is: /Users/zhengyangliu/Code/opensource/redis
+/Users/zhengyangliu/Code/opensource/redis
+/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zhengyangliu/Code/opensource/redis/cmake-build-debug

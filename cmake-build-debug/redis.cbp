@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="redis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis2">
+				<Option working_dir="/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis">
+				<Option output="/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/redis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DREDIS_STATIC="/>
+					<Add directory="/Users/zhengyangliu/Code/opensource/redis/deps/hiredis"/>
+					<Add directory="/Users/zhengyangliu/Code/opensource/redis/deps/linenoise"/>
+					<Add directory="/Users/zhengyangliu/Code/opensource/redis/deps/lua/src"/>
+					<Add directory="/Users/zhengyangliu/Code/opensource/redis/deps/geohash-int"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis/fast">
+				<Option output="/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/redis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DREDIS_STATIC="/>
+					<Add directory="/Users/zhengyangliu/Code/opensource/redis/deps/hiredis"/>
+					<Add directory="/Users/zhengyangliu/Code/opensource/redis/deps/linenoise"/>
+					<Add directory="/Users/zhengyangliu/Code/opensource/redis/deps/lua/src"/>
+					<Add directory="/Users/zhengyangliu/Code/opensource/redis/deps/geohash-int"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhengyangliu/Code/opensource/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/adlist.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/adlist.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/ae.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/ae.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/anet.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/anet.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/aof.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/asciilogo.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/bio.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/bio.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/bitops.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/blocked.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/cluster.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/cluster.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/config.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/config.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/crc16.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/crc64.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/crc64.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/db.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/debug.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/dict.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/dict.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/endianconv.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/endianconv.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/fmacros.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/geo.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/geo.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/help.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/hyperloglog.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/intset.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/intset.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/latency.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/latency.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/lzf.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/lzfP.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/lzf_c.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/lzf_d.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/memtest.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/multi.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/networking.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/notify.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/object.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/pqsort.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/pqsort.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/pubsub.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/quicklist.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/quicklist.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/rand.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/rand.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/rdb.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/rdb.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/redis-check-rdb.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/redisassert.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/release.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/release.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/replication.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/rio.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/rio.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/scripting.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/sds.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/sds.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/sdsalloc.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/sentinel.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/server.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/server.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/setproctitle.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/sha1.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/sha1.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/slowlog.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/slowlog.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/solarisfixes.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/sort.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/sparkline.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/sparkline.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/syncio.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/t_hash.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/t_list.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/t_set.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/t_string.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/t_zset.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/testhelp.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/util.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/util.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/version.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/ziplist.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/ziplist.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/zipmap.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/zipmap.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/zmalloc.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/src/zmalloc.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhengyangliu/Code/opensource/redis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhengyangliu/Code/opensource/redis/deps/hiredis/examples/example-qt.cpp
+iostream
+-
+QCoreApplication
+-
+QTimer
+-
+example-qt.h
+/Users/zhengyangliu/Code/opensource/redis/deps/hiredis/examples/example-qt.h
+
+/Users/zhengyangliu/Code/opensource/redis/deps/hiredis/examples/example-qt.h
+adapters/qt.h
+-
+
